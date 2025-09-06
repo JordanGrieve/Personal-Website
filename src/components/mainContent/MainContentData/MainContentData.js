@@ -310,8 +310,8 @@ export const TIMELINE = [
         title: "OrgamicMe Revamp",
         tags: ["Design"],
         logo: "figma",
-        techStack: [{ name: "Figma", color: "#F24E1E" }],
-        links: [{ label: "Figma", href: "https://www.figma.com/design/PvJsOOS8Mr7bH8jiL3jt46/OrganicME-Updatee?node-id=0-1&t=vZa9BR7ZvzmY6TNa-1", color: "#F24E1E" }],
+        techStack: [{ name: "Figma", color: "#E04E9F" }],
+        links: [{ label: "Figma", href: "https://www.figma.com/design/PvJsOOS8Mr7bH8jiL3jt46/OrganicME-Updatee?node-id=0-1&t=vZa9BR7ZvzmY6TNa-1", color: "#E04E9F" }],
         description:
           "Brand & UI refresh for OrganicMe: introduced a warmer color palette, softer card components, and enhanced product storytelling. Focused on improving visual hierarchy, modernizing typography, and creating a more inviting, consumer-friendly browsing experience while keeping the family-run organic brand identity intact.",
         images: [JusJaxRevampIndex, JusJaxRevampIndex2, JusJaxRevampIndex3, JusJaxRevampIndex4],
