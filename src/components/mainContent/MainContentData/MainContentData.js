@@ -24,7 +24,6 @@ import MovieHubInsideMoviePage from "./assets/movie-hub-inside-movie.svg";
 import MovieHubMovies from "./assets/movie-hub-movies.svg"
 
 // JusJax Revamp
-import OrganicMeRevampLogo from "./assets/Organic-Me-Revamp-Logo.svg";
 import JusJaxRevampIndex from "./assets/JusJax-Revamp-Index.png";
 import JusJaxRevampIndex2 from "./assets/JusJax-Revamp-Index-2.png";
 import JusJaxRevampIndex3 from "./assets/JusJax-Revamp-Index-3.png";
@@ -310,7 +309,7 @@ export const TIMELINE = [
       {
         title: "OrgamicMe Revamp",
         tags: ["Design"],
-        logo: OrganicMeRevampLogo,
+        logo: "figma",
         techStack: [{ name: "Figma", color: "#F24E1E" }],
         links: [{ label: "Figma", href: "https://www.figma.com/design/PvJsOOS8Mr7bH8jiL3jt46/OrganicME-Updatee?node-id=0-1&t=vZa9BR7ZvzmY6TNa-1", color: "#F24E1E" }],
         description:
