@@ -92,13 +92,51 @@ import HighorLower1 from "./assets/Higher-or-Lower1.svg"
 import BlackJack from "./assets/BlackJack.svg"
 import BlackJack1 from "./assets/BlackJack1.svg"
 
+// Investment Calculator
+import InvestmentCalculator from "./assets/investment-cal1.png"
+import InvestmentCalculator2 from "./assets/investment-cal2.png"
 
+// Tic-Tac-Toe
+import TicTacToe from "./assets/tic-tac-toe1.png"
+import TicTacToe2 from "./assets/tic-tac-toe2.png"
 
 export const TIMELINE = [
   // ---------- September 2025 ----------
   {
     date: "September 2025",
     projects: [
+        {
+  title: "Tic-Tac-Toe Game",
+  tags: ["Frontend"],
+  logo: "react",
+  techStack: [
+    { name: "React", color: "#61DAFB" },
+    { name: "Vite", color: "#646CFF" },
+  ],
+  links: [
+    { label: "Repo", href: "https://github.com/JordanGrieve/React-Complete-Course/tree/master/02-tic-tac-toe-starting-project", color: "#181717" },
+  ],
+  description:
+    "A React Tic-Tac-Toe built with lifted state and derived helpers. Uses useState for turns/players, derives active player & board from the turns log, checks a WINNING_COMBINATIONS table for victory, and shows a GameOver overlay with a rematch flow. Components: Player, GameBoard, Log, GameOver.",
+  images: [TicTacToe, TicTacToe2],
+  details: { period: "Sep 2025", role: "Frontend" },
+},
+        {
+      title: "Investment Calculator",
+      tags: ["Frontend"],
+      logo: "react",
+      techStack: [
+        { name: "React", color: "#61DAFB" },
+        { name: "Vite", color: "#646CFF" },
+      ],
+      links: [
+        { label: "Repo", href: "https://github.com/JordanGrieve/React-Complete-Course/tree/master/03-investment-calculator", color: "#181717" },
+      ],
+      description:
+        "A React-based calculator to project investment growth using user inputs for initial/annual investment, expected return, and duration. Built with useState and state lifting.",
+      images: [InvestmentCalculator, InvestmentCalculator2],
+      details: { period: "Sep 2025", role: "Frontend" },
+    },
       {
         title: "React Components Playground",
         tags: ["Frontend"],
