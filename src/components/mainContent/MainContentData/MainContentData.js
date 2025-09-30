@@ -100,7 +100,63 @@ import InvestmentCalculator2 from "./assets/investment-cal2.png"
 import TicTacToe from "./assets/tic-tac-toe1.png"
 import TicTacToe2 from "./assets/tic-tac-toe2.png"
 
+// Expense Tracker GQL
+import ExpenseTrackerGQL1 from "./assets/Expenseql1.png"
+import ExpenseTrackerGQL2 from "./assets/Expenseql2.png"
+import ExpenseTrackerGQL3 from "./assets/Expenseql3.png"
+import ExpenseTrackerGQL4 from "./assets/Expenseql4.png"
+
+import AdminDashboard1 from "./assets/adminDashboard.png"
+import AdminDashboard2 from "./assets/adminDashboard1.png"
+import AdminDashboard3 from "./assets/adminDashboard2.png"
+import AdminDashboard4 from "./assets/adminDashboard3.png"
+
 export const TIMELINE = [
+  // ---------- October 2025 ----------
+  {
+    date: "October 2025",
+    projects: [
+      {
+        title: "Expense Tracker GQL",
+        tags: ["Frontend", "Backend"],
+        logo: "react",
+        techStack: [
+          { name: "React", color: "#61DAFB" },
+          { name: "GraphQL", color: "#E535AB" },
+          { name: "MongoDB", color: "#47A248" },
+          { name: "Apollo", color: "#311C87" },
+          { name: "Auth.js", color: "#6366F1" },
+          { name: "Cookies", color: "#FBBF24" },
+        ],
+        links: [
+          { label: "Repo", href: "https://github.com/JordanGrieve/MERN-Course/tree/main/04-Expenses-Tracker", color: "#181717" },
+        ],
+        description:
+          "A fullstack expense tracking app built with React, GraphQL, and MongoDB. Features include user authentication via Auth.js with cookies, animated charts using Framer Motion, conditional UI rendering based on login state, Apollo Client caching, and dynamic toast notifications via React Hot Toast.",
+        images: [ExpenseTrackerGQL1, ExpenseTrackerGQL2, ExpenseTrackerGQL3, ExpenseTrackerGQL4],
+        details: { period: "Oct 2025", role: "Fullstack" },
+      },
+              {
+        title: "Animated Admin Dashboard",
+        tags: ["Frontend"],
+        logo: "react",
+        techStack: [
+          { name: "React", color: "#61DAFB" },
+          { name: "Tailwind CSS", color: "#38BDF8" },
+          { name: "Framer Motion", color: "#EC4899" },
+          { name: "Lucide Icons", color: "#6366F1" },
+        ],
+        links: [
+          { label: "Repo", href: "https://github.com/JordanGrieve/MERN-Course/tree/main/03-Admin-Dashboard", color: "#181717" },
+        ],
+        description:
+          "An elegant and responsive admin dashboard built with React and Tailwind CSS. Components are structured with `props` and `children` to promote reusability and maintainability. State is lifted to central components for global insight aggregation. Framer Motion adds entry animations to each card, enhancing the modern feel of the UI. Includes Overview, Sales, Analytics, and Settings pages.",
+        images: [AdminDashboard1, AdminDashboard2, AdminDashboard3, AdminDashboard4],
+        details: { period: "Oct 2025", role: "Frontend" },
+      },
+    ],
+  },
+
   // ---------- September 2025 ----------
   {
     date: "September 2025",

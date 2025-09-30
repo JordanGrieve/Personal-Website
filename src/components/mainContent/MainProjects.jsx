@@ -125,7 +125,7 @@ const ICONS = {
                     )}
 
                     {proj.images?.length > 0 && (
-                      <div className="mt-4 grid grid-cols-2 gap-3">
+                      <div className="mt-4 grid md:grid-cols-2 gap-3">
                         {proj.images.map((src, k) => (
                           <img key={k} src={src} alt="" className="rounded-lg border border-white/10" />
                         ))}
