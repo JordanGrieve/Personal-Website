@@ -111,51 +111,97 @@ import AdminDashboard2 from "./assets/adminDashboard1.png"
 import AdminDashboard3 from "./assets/adminDashboard2.png"
 import AdminDashboard4 from "./assets/adminDashboard3.png"
 
+// ProjectMgmt
+import ProjectMgmt1 from "./assets/graphql-crash-course-1.png"
+import ProjectMgmt2 from "./assets/graphql-crash-course-2.png"
+import ProjectMgmt3 from "./assets/graphql-crash-course-3.png"
+import ProjectMgmt4 from "./assets/graphql-crash-course-4.png"
+
+// Klassic Kilts
+import KlassicKilts from "./assets/KlassicKilts-1.png"
+import KlassicKilts2 from "./assets/KlassicKilts-2.png"
+import KlassicKilts3 from "./assets/KlassicKilts-3.png"
+import KlassicKilts4 from "./assets/KlassicKilts-4.png"
+
 export const TIMELINE = [
   // ---------- October 2025 ----------
   {
-    date: "October 2025",
-    projects: [
-      {
-        title: "Expense Tracker GQL",
-        tags: ["Frontend", "Backend"],
-        logo: "react",
-        techStack: [
-          { name: "React", color: "#61DAFB" },
-          { name: "GraphQL", color: "#E535AB" },
-          { name: "MongoDB", color: "#47A248" },
-          { name: "Apollo", color: "#311C87" },
-          { name: "Auth.js", color: "#6366F1" },
-          { name: "Cookies", color: "#FBBF24" },
-        ],
-        links: [
-          { label: "Repo", href: "https://github.com/JordanGrieve/MERN-Course/tree/main/04-Expenses-Tracker", color: "#181717" },
-        ],
-        description:
-          "A fullstack expense tracking app built with React, GraphQL, and MongoDB. Features include user authentication via Auth.js with cookies, animated charts using Framer Motion, conditional UI rendering based on login state, Apollo Client caching, and dynamic toast notifications via React Hot Toast.",
-        images: [ExpenseTrackerGQL1, ExpenseTrackerGQL2, ExpenseTrackerGQL3, ExpenseTrackerGQL4],
-        details: { period: "Oct 2025", role: "Fullstack" },
-      },
-              {
-        title: "Animated Admin Dashboard",
-        tags: ["Frontend"],
-        logo: "react",
-        techStack: [
-          { name: "React", color: "#61DAFB" },
-          { name: "Tailwind CSS", color: "#38BDF8" },
-          { name: "Framer Motion", color: "#EC4899" },
-          { name: "Lucide Icons", color: "#6366F1" },
-        ],
-        links: [
-          { label: "Repo", href: "https://github.com/JordanGrieve/MERN-Course/tree/main/03-Admin-Dashboard", color: "#181717" },
-        ],
-        description:
-          "An elegant and responsive admin dashboard built with React and Tailwind CSS. Components are structured with `props` and `children` to promote reusability and maintainability. State is lifted to central components for global insight aggregation. Framer Motion adds entry animations to each card, enhancing the modern feel of the UI. Includes Overview, Sales, Analytics, and Settings pages.",
-        images: [AdminDashboard1, AdminDashboard2, AdminDashboard3, AdminDashboard4],
-        details: { period: "Oct 2025", role: "Frontend" },
-      },
-    ],
-  },
+  date: "October 2025",
+  projects: [
+    {
+      title: "Expense Tracker GQL",
+      tags: ["Frontend", "Backend"],
+      logo: "react",
+      techStack: [
+        { name: "React", color: "#61DAFB" },
+        { name: "GraphQL", color: "#E535AB" },
+        { name: "MongoDB", color: "#47A248" },
+        { name: "Apollo", color: "#311C87" },
+        { name: "Auth.js", color: "#6366F1" },
+        { name: "Cookies", color: "#FBBF24" },
+      ],
+      links: [
+        { label: "Repo", href: "https://github.com/JordanGrieve/MERN-Course/tree/main/04-Expenses-Tracker", color: "#181717" },
+      ],
+      description:
+        "A fullstack expense tracking app built with React, GraphQL, and MongoDB. Features include user authentication via Auth.js with cookies, animated charts using Framer Motion, conditional UI rendering based on login state, Apollo Client caching, and dynamic toast notifications via React Hot Toast.",
+      images: [ExpenseTrackerGQL1, ExpenseTrackerGQL2, ExpenseTrackerGQL3, ExpenseTrackerGQL4],
+      details: { period: "Oct 2025", role: "Fullstack" },
+    },
+    {
+      title: "Animated Admin Dashboard",
+      tags: ["Frontend"],
+      logo: "react",
+      techStack: [
+        { name: "React", color: "#61DAFB" },
+        { name: "Tailwind CSS", color: "#38BDF8" },
+        { name: "Framer Motion", color: "#EC4899" },
+        { name: "Lucide Icons", color: "#6366F1" },
+      ],
+      links: [
+        { label: "Repo", href: "https://github.com/JordanGrieve/MERN-Course/tree/main/03-Admin-Dashboard", color: "#181717" },
+      ],
+      description:
+        "An elegant and responsive admin dashboard built with React and Tailwind CSS. Components are structured with props and children to promote reusability and maintainability. State is lifted to central components for global insight aggregation. Framer Motion adds entry animations to each card, enhancing the modern feel of the UI. Includes Overview, Sales, Analytics, and Settings pages.",
+      images: [AdminDashboard1, AdminDashboard2, AdminDashboard3, AdminDashboard4],
+      details: { period: "Oct 2025", role: "Frontend" },
+    },
+    {
+      title: "ProjectMgmt GQL",
+      tags: ["Frontend", "Backend"],
+      logo: "react",
+      techStack: [
+        { name: "React", color: "#61DAFB" },
+        { name: "Apollo Client", color: "#311C87" },
+        { name: "GraphQL", color: "#E535AB" },
+        { name: "MongoDB", color: "#47A248" },
+        { name: "Bootstrap", color: "#7952B3" },
+      ],
+      links: [
+        { label: "Repo", href: "https://github.com/JordanGrieve/MERN-Course/tree/main/05_GraphQL-Crash-Course", color: "#181717" },
+      ],
+      description:
+        "A CRUD-based project and client management platform where users can create, view, update, and delete both projects and clients, linking them dynamically. Built with React, Apollo Client, and a Node/Express GraphQL backend, the app demonstrates strong full-stack logic without focusing on UI design. Bootstrap ensures clean, consistent styling while Apollo provides efficient data caching and mutation handling. This project highlights understanding of GraphQL relationships, schema design, and data querying between interconnected models.",
+      images: [ProjectMgmt1, ProjectMgmt2, ProjectMgmt3, ProjectMgmt4],
+      details: { period: "Oct 2025", role: "Frontend & Backend" },
+    },
+    {
+      title: "Klassic Kilts Design",
+      tags: ["Design"],
+      logo: "figma",
+      techStack: [
+        { name: "Figma", color: "#E04E9F" },
+      ],
+      links: [
+        { label: "Figma", href: "https://www.figma.com/design/pG6meAtVNura4dcznpse0V/Hi-Top-Sneakers?node-id=1150-58&t=ulemEoLkmXKxCnM1-1", color: "#E04E9F" },
+      ],
+      description:
+        "A seven-page website design for a family-run kilt-hire business based in Midlothian. The layout balances tradition with modern simplicity, featuring large hero imagery, clean typography, and consistent spacing for a refined user experience. The color palette combines **navy blue**, **cream**, and **soft grey** tones — chosen to evoke heritage, trust, and professionalism — while accent colors in **gold** highlight interactive elements. The typography pairing of **'Playfair Display'** for headings and **'Poppins'** for body text creates an elegant yet contemporary visual identity. Pages include Home, Kilt Hire, About Us, FAQ, Contact, and more, each designed for clarity and easy navigation.",
+      images: [KlassicKilts, KlassicKilts2, KlassicKilts3, KlassicKilts4],
+      details: { period: "Oct 2025", role: "UI/UX Designer" },
+    },
+  ],
+},
 
   // ---------- September 2025 ----------
   {
