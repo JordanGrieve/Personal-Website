@@ -123,9 +123,23 @@ import KlassicKilts2 from "./assets/KlassicKilts-2.png"
 import KlassicKilts3 from "./assets/KlassicKilts-3.png"
 import KlassicKilts4 from "./assets/KlassicKilts-4.png"
 
+// Advanced Note App
+import NoteApp1 from "./assets/react-note-taking-app-1.png"
+import NoteApp2 from "./assets/react-note-taking-app-2.png"
+import NoteApp3 from "./assets/react-note-taking-app-3.png"
+import NoteApp4 from "./assets/react-note-taking-app-4.png"
+
+// Countdown game
+import CountdownGame1 from "./assets/countdown-game-1.png"
+import CountdownGame2 from "./assets/countdown-game-2.png"
+import CountdownGame3 from "./assets/countdown-game-3.png"
+import CountdownGame4 from "./assets/countdown-game-4.png"
+
+
+
 export const TIMELINE = [
   // ---------- October 2025 ----------
-  {
+{
   date: "October 2025",
   projects: [
     {
@@ -141,7 +155,11 @@ export const TIMELINE = [
         { name: "Cookies", color: "#FBBF24" },
       ],
       links: [
-        { label: "Repo", href: "https://github.com/JordanGrieve/MERN-Course/tree/main/04-Expenses-Tracker", color: "#181717" },
+        {
+          label: "Repo",
+          href: "https://github.com/JordanGrieve/MERN-Course/tree/main/04-Expenses-Tracker",
+          color: "#181717",
+        },
       ],
       description:
         "A fullstack expense tracking app built with React, GraphQL, and MongoDB. Features include user authentication via Auth.js with cookies, animated charts using Framer Motion, conditional UI rendering based on login state, Apollo Client caching, and dynamic toast notifications via React Hot Toast.",
@@ -159,7 +177,11 @@ export const TIMELINE = [
         { name: "Lucide Icons", color: "#6366F1" },
       ],
       links: [
-        { label: "Repo", href: "https://github.com/JordanGrieve/MERN-Course/tree/main/03-Admin-Dashboard", color: "#181717" },
+        {
+          label: "Repo",
+          href: "https://github.com/JordanGrieve/MERN-Course/tree/main/03-Admin-Dashboard",
+          color: "#181717",
+        },
       ],
       description:
         "An elegant and responsive admin dashboard built with React and Tailwind CSS. Components are structured with props and children to promote reusability and maintainability. State is lifted to central components for global insight aggregation. Framer Motion adds entry animations to each card, enhancing the modern feel of the UI. Includes Overview, Sales, Analytics, and Settings pages.",
@@ -178,7 +200,11 @@ export const TIMELINE = [
         { name: "Bootstrap", color: "#7952B3" },
       ],
       links: [
-        { label: "Repo", href: "https://github.com/JordanGrieve/MERN-Course/tree/main/05_GraphQL-Crash-Course", color: "#181717" },
+        {
+          label: "Repo",
+          href: "https://github.com/JordanGrieve/MERN-Course/tree/main/05_GraphQL-Crash-Course",
+          color: "#181717",
+        },
       ],
       description:
         "A CRUD-based project and client management platform where users can create, view, update, and delete both projects and clients, linking them dynamically. Built with React, Apollo Client, and a Node/Express GraphQL backend, the app demonstrates strong full-stack logic without focusing on UI design. Bootstrap ensures clean, consistent styling while Apollo provides efficient data caching and mutation handling. This project highlights understanding of GraphQL relationships, schema design, and data querying between interconnected models.",
@@ -189,16 +215,63 @@ export const TIMELINE = [
       title: "Klassic Kilts Design",
       tags: ["Design"],
       logo: "figma",
-      techStack: [
-        { name: "Figma", color: "#E04E9F" },
-      ],
+      techStack: [{ name: "Figma", color: "#E04E9F" }],
       links: [
-        { label: "Figma", href: "https://www.figma.com/design/pG6meAtVNura4dcznpse0V/Hi-Top-Sneakers?node-id=1150-58&t=ulemEoLkmXKxCnM1-1", color: "#E04E9F" },
+        {
+          label: "Figma",
+          href: "https://www.figma.com/design/pG6meAtVNura4dcznpse0V/Hi-Top-Sneakers?node-id=1150-58&t=ulemEoLkmXKxCnM1-1",
+          color: "#E04E9F",
+        },
       ],
       description:
-        "A seven-page website design for a family-run kilt-hire business based in Midlothian. The layout balances tradition with modern simplicity, featuring large hero imagery, clean typography, and consistent spacing for a refined user experience. The color palette combines **navy blue**, **cream**, and **soft grey** tones — chosen to evoke heritage, trust, and professionalism — while accent colors in **gold** highlight interactive elements. The typography pairing of **'Playfair Display'** for headings and **'Poppins'** for body text creates an elegant yet contemporary visual identity. Pages include Home, Kilt Hire, About Us, FAQ, Contact, and more, each designed for clarity and easy navigation.",
+        "A seven-page website design created for a family-run kilt-hire business based in Midlothian. The design blends tradition with modern simplicity, using large hero imagery, clean typography, and consistent spacing to create a refined and professional user experience. The color palette combines navy blue, cream, and soft grey tones to convey heritage, trust, and sophistication, while subtle gold accents highlight interactive elements. The typography pairing of Playfair Display for headings and Poppins for body text reinforces an elegant yet contemporary visual identity. Each page — including Home, Kilt Hire, About Us, FAQ, and Contact — is structured for clarity, balance, and intuitive navigation.",
       images: [KlassicKilts, KlassicKilts2, KlassicKilts3, KlassicKilts4],
       details: { period: "Oct 2025", role: "UI/UX Designer" },
+    },
+    {
+      title: "The Almost Final Countdown",
+      tags: ["Frontend"],
+      logo: "react",
+      techStack: [
+        { name: "React", color: "#61DAFB" },
+        { name: "useRef", color: "#38BDF8" },
+        { name: "useState", color: "#10B981" },
+        { name: "Portals", color: "#F472B6" },
+      ],
+      links: [
+        {
+          label: "Repo",
+          href: "https://github.com/JordanGrieve/MERN-Course/tree/main/07-countdown-game",
+          color: "#181717",
+        },
+      ],
+      description:
+        "A lightweight React timing game where players aim to stop the timer as close as possible to the target time. It was built using useState, useRef, and Portals to manage timers, modal rendering, and DOM isolation for a clean and organized UI structure. While simple in concept, it effectively demonstrates strong handling of React’s lifecycle and state management. The interface is minimalistic, featuring multiple difficulty modes and real-time score feedback displayed through smooth, animated modals.",
+      images: [CountdownGame1, CountdownGame2, CountdownGame3, CountdownGame4],
+      details: { period: "Oct 2025", role: "Frontend" },
+    },
+    {
+      title: "Advanced Note App",
+      tags: ["Frontend"],
+      logo: "typescript",
+      techStack: [
+        { name: "React", color: "#61DAFB" },
+        { name: "TypeScript", color: "#3178C6" },
+        { name: "Local Storage Hook", color: "#FBBF24" },
+        { name: "Markdown", color: "#9CA3AF" },
+        { name: "Routing", color: "#EC4899" },
+      ],
+      links: [
+        {
+          label: "Repo",
+          href: "https://github.com/JordanGrieve/MERN-Course/tree/main/06_react-note-taking-app",
+          color: "#181717",
+        },
+      ],
+      description:
+        "An advanced React and TypeScript note-taking application that supports markdown, tag-based filtering, and categorization. It includes full CRUD functionality with persistent data handled through a custom useLocalStorage hook, along with dynamic routing for creating, editing, and viewing notes. The project was designed to strengthen TypeScript proficiency through strict typing of components, interfaces, and custom hooks. The result is a polished and efficient application that demonstrates clean architecture, robust state management, and reusable form components.",
+      images: [NoteApp1, NoteApp2, NoteApp3, NoteApp4],
+      details: { period: "Oct 2025", role: "Frontend" },
     },
   ],
 },

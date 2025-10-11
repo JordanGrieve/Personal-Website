@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { TIMELINE } from "./MainContentData/MainContentData.js";
 import Modal from "../modal/Modal.jsx";
-import { SiFigma, SiJavascript, SiNodedotjs, SiPhp, SiPython, SiReact } from "react-icons/si";
+import {SiFigma, SiJavascript, SiNodedotjs, SiPhp, SiPython, SiReact, SiTypescript} from "react-icons/si";
 
 export default function MainProject() {
   const [enlargedImg, setEnlargedImg] = useState(null);
@@ -20,6 +20,8 @@ export default function MainProject() {
     php: <SiPhp className="text-purple-500 w-10 h-10" />,
     python: <SiPython className="text-yellow-500 w-8 h-8" />,
     javascript: <SiJavascript className="text-yellow-300 w-10 h-10" />,
+      typescript: <SiTypescript className="text-[#3178C6] w-10 h-10" />
+,
   };
 
   return (
