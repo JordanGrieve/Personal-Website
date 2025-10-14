@@ -298,7 +298,7 @@ export const TIMELINE = [
       links: [
         {
           label: "Repo",
-          href: "https://github.com/JordanGrieve/MERN-Course/tree/main/01_form-validation",
+          href: "https://github.com/JordanGrieve/js-mini-projects/tree/main/14_form-validator",
           color: "#181717",
         },
       ],
@@ -320,7 +320,7 @@ export const TIMELINE = [
       links: [
         {
           label: "Repo",
-          href: "https://github.com/JordanGrieve/MERN-Course/tree/main/02_react-project-manager",
+          href: "https://github.com/JordanGrieve/React-Complete-Course/tree/master/06-project-management",
           color: "#181717",
         },
       ],
