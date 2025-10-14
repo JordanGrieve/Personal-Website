@@ -135,6 +135,19 @@ import CountdownGame2 from "./assets/countdown-game-2.png"
 import CountdownGame3 from "./assets/countdown-game-3.png"
 import CountdownGame4 from "./assets/countdown-game-4.png"
 
+// Form Validation
+import FormValidation1 from "./assets/form-validate-1.png"
+import FormValidation2 from "./assets/form-validate-2.png"
+import FormValidation3 from "./assets/form-validate-3.png"
+import FormValidation4 from "./assets/form-validate-4.png"
+
+// React Project Management
+import ReactProjectMgmt1 from "./assets/react-project-manager-1.png"
+import ReactProjectMgmt2 from "./assets/react-project-manager-2.png"
+import ReactProjectMgmt3 from "./assets/react-project-manager-3.png"
+import ReactProjectMgmt4 from "./assets/react-project-manager-4.png"
+
+
 
 
 export const TIMELINE = [
@@ -251,7 +264,7 @@ export const TIMELINE = [
       details: { period: "Oct 2025", role: "Frontend" },
     },
     {
-      title: "Advanced Note App",
+      title: "Note App",
       tags: ["Frontend"],
       logo: "typescript",
       techStack: [
@@ -271,6 +284,49 @@ export const TIMELINE = [
       description:
         "An advanced React and TypeScript note-taking application that supports markdown, tag-based filtering, and categorization. It includes full CRUD functionality with persistent data handled through a custom useLocalStorage hook, along with dynamic routing for creating, editing, and viewing notes. The project was designed to strengthen TypeScript proficiency through strict typing of components, interfaces, and custom hooks. The result is a polished and efficient application that demonstrates clean architecture, robust state management, and reusable form components.",
       images: [NoteApp1, NoteApp2, NoteApp3, NoteApp4],
+      details: { period: "Oct 2025", role: "Frontend" },
+    },
+      {
+      title: "Form Validation",
+      tags: ["Frontend"],
+      logo: "javascript",
+      techStack: [
+        { name: "JavaScript", color: "#F7DF1E" },
+        { name: "HTML", color: "#E34F26" },
+        { name: "CSS", color: "#1572B6" },
+      ],
+      links: [
+        {
+          label: "Repo",
+          href: "https://github.com/JordanGrieve/MERN-Course/tree/main/01_form-validation",
+          color: "#181717",
+        },
+      ],
+      description:
+        "A lightweight form validation project built with vanilla JavaScript, HTML, and CSS. The app dynamically checks user inputs in real-time, providing clear visual feedback for errors and successes. Validation rules include email format verification, password confirmation, and URL structure. Despite its simplicity, the project demonstrates fundamental front-end logic handling, input validation patterns, and clean CSS styling for a smooth user experience.",
+      images: [FormValidation1, FormValidation2, FormValidation3, FormValidation4],
+      details: { period: "Oct 2025", role: "Frontend" },
+    },
+    {
+      title: "React Project Management Tool",
+      tags: ["Frontend"],
+      logo: "react",
+      techStack: [
+        { name: "React", color: "#61DAFB" },
+        { name: "useState", color: "#10B981" },
+        { name: "Local Storage", color: "#FBBF24" },
+        { name: "CSS", color: "#1572B6" },
+      ],
+      links: [
+        {
+          label: "Repo",
+          href: "https://github.com/JordanGrieve/MERN-Course/tree/main/02_react-project-manager",
+          color: "#181717",
+        },
+      ],
+      description:
+        "A simple React-based project management tool that allows users to create and manage projects with associated tasks. Built using useState and useEffect for local state management, with data persistence handled via local storage. The app features task creation, deletion, and per-project organization through a clean sidebar layout. It highlights fundamental CRUD operations in React and demonstrates how to structure small-scale applications for clarity and scalability.",
+      images: [ReactProjectMgmt1, ReactProjectMgmt2, ReactProjectMgmt3, ReactProjectMgmt4],
       details: { period: "Oct 2025", role: "Frontend" },
     },
   ],
