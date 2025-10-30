@@ -147,14 +147,84 @@ import ReactProjectMgmt2 from "./assets/react-project-manager-2.png"
 import ReactProjectMgmt3 from "./assets/react-project-manager-3.png"
 import ReactProjectMgmt4 from "./assets/react-project-manager-4.png"
 
+// Bestie App
+import BestieApp1 from "./assets/bestie-app-1.png"
+import BestieApp2 from "./assets/bestie-app-2.png"
+import BestieApp3 from "./assets/bestie-app-3.png"
+import BestieApp4 from "./assets/bestie-app-4.png"
+
+// DevEvent
+import DevEvent1 from "./assets/devEvent-1.png"
+import DevEvent2 from "./assets/devEvent-2.png"
+import DevEvent3 from "./assets/devEvent-3.png"
+import DevEvent4 from "./assets/devEvent-4.png"
+import DevLogo from "./assets/devEventLogo.png"
+
 
 
 
 export const TIMELINE = [
-  // ---------- October 2025 ----------
-{
-  date: "October 2025",
+    {
+  date: "Featured",
   projects: [
+    {
+      title: "DevEvent",
+      tags: ["Frontend", "Backend"],
+      logo: [DevLogo],
+      techStack: [
+        { name: "Next.js", color: "#8d8d8d" },
+        { name: "TypeScript", color: "#3178C6" },
+        { name: "MongoDB", color: "#47A248" },
+        { name: "Mongoose", color: "#800000" },
+        { name: "Tailwind CSS", color: "#38BDF8" }
+      ],
+      links: [
+        {
+          label: "Repo",
+          href: "https://github.com/JordanGrieve/dev-events-nextjs16",
+          color: "#181717"
+        },
+          {
+          label: "Live",
+          href: "https://dev-events-nextjs16.vercel.app/",
+          color: "#005b00"
+        }
+      ],
+      description:
+        "A full-stack event discovery platform built with Next.js, TypeScript, and MongoDB. DevEvent centralizes hackathons, meetups, and conferences in one place, allowing users to explore featured events, view detailed agendas, and book their spot through an integrated email form. The project includes server-side data fetching with dynamic routes, form validation, and modular components for event cards, booking, and layout styling. Its UI, powered by Tailwind CSS and custom light-ray effects, delivers a sleek and immersive browsing experience designed to feel both professional and modern.",
+      images: [DevEvent1, DevEvent2, DevEvent3, DevEvent4],
+      details: { period: "Featured", role: "Frontend & Backend" }
+    }
+  ]
+},
+
+  // ---------- October 2025 ----------
+    {
+      date: "October 2025",
+      projects: [
+          {
+      title: "Best Friend App",
+      tags: ["Frontend", "Backend"],
+      logo: "python",
+      techStack: [
+        { name: "React", color: "#61DAFB" },
+        { name: "Flask", color: "#EAB308" },
+        { name: "SQLite", color: "#003B57" },
+        { name: "Chakra UI", color: "#319795" },
+        { name: "API", color: "#10B981" },
+      ],
+      links: [
+        {
+          label: "Repo",
+          href: "https://github.com/JordanGrieve/MERN-Course/tree/main/07_best-friend-app",
+          color: "#181717",
+        },
+      ],
+      description:
+        "A fun full-stack CRUD application built with React and Flask that allows users to create, edit, and delete 'best friend' profiles. Each card displays a friend's name, role, and description, with data stored in a Flask + SQLite backend and retrieved through REST API requests. The UI, designed with Chakra UI, includes modals, form validation, and toast notifications for success or error feedback. The project showcases frontend-backend integration, dynamic state management, and clean visual design.",
+      images: [BestieApp1, BestieApp2, BestieApp3, BestieApp4],
+      details: { period: "Oct 2025", role: "Frontend" },
+    },
     {
       title: "Expense Tracker GQL",
       tags: ["Frontend", "Backend"],
@@ -599,9 +669,11 @@ export const TIMELINE = [
         logo: "python",
         techStack: [
           { name: "Python", color: "#EAB308" },
+            { name: "Flask", color: "#EAB308" },
           { name: "Bootstrap", color: "#7952B3" },
           { name: "HTML", color: "#E34F26" },
           { name: "CSS", color: "#1572B6" },
+
         ],
         links: [
           { label: "Figma", href: "https://www.figma.com/design/ewFPUX2KiQciyYePKkHZLH/MovieHub?node-id=0-1&t=QcJrXK4gg7BKDlV3-1", color: "#E04E9F" },
