@@ -160,7 +160,21 @@ import DevEvent3 from "./assets/devEvent-3.png"
 import DevEvent4 from "./assets/devEvent-4.png"
 import DevLogo from "./assets/devEventLogo.png"
 
+// React Router Events Manager
+import ReactRouterEvents1 from "./assets/react-router-events-1.png"
+import ReactRouterEvents2 from "./assets/react-router-events-2.png"
+import ReactRouterEvents3 from "./assets/react-router-events-3.png"
+import ReactRouterEvents4 from "./assets/react-router-events-4.png"
 
+// Redux Cart
+import ReduxCart1 from "./assets/redux-1.png"
+import ReduxCart2 from "./assets/redux-2.png"
+
+// ReactFoods
+import ReactFoods1 from "./assets/react-foods-1.png"
+import ReactFoods2 from "./assets/react-foods-2.png"
+import ReactFoods3 from "./assets/react-foods-3.png"
+import ReactFoods4 from "./assets/react-foods-4.png"
 
 
 export const TIMELINE = [
@@ -197,6 +211,84 @@ export const TIMELINE = [
     }
   ]
 },
+
+    // ---------- November 2025 ----------
+{
+  date: "November 2025",
+  projects: [
+    {
+      title: "ReactFoods",
+      tags: ["Frontend"],
+      logo: "react",
+      techStack: [
+        { name: "React", color: "#61DAFB" },
+        { name: "useReducer", color: "#10B981" },
+        { name: "useContext", color: "#F97316" },
+        { name: "Portals", color: "#F472B6" },
+      ],
+      links: [
+        {
+          label: "Repo",
+          href: "https://github.com/JordanGrieve/React-Complete-Course/tree/master/11-food-order",
+          color: "#181717",
+        },
+      ],
+      description:
+        "A polished React food-ordering application built around advanced state architecture. The project replaces scattered local state with a clean, centralized useReducer + Context API system, enabling cart actions, checkout modals, total calculations, and dynamic form state with precision. Portals handle modal rendering for a layered, restaurant-menu aesthetic. The application demonstrates mastery of reducers, dispatch patterns, and structured state flows—all wrapped in a refined UI with smooth interactions and component composition.",
+      images: [ReactFoods1, ReactFoods2, ReactFoods3, ReactFoods4],
+      details: { period: "Nov 2025", role: "Frontend" },
+    },
+
+    {
+      title: "ReduxCart",
+      tags: ["Frontend"],
+      logo: "redux",
+      techStack: [
+        { name: "React", color: "#61DAFB" },
+        { name: "Redux", color: "#764ABC" },
+        { name: "Redux Toolkit", color: "#A855F7" },
+        { name: "Slices", color: "#34D399" },
+      ],
+      links: [
+        {
+          label: "Repo",
+          href: "https://github.com/JordanGrieve/React-Complete-Course/tree/master/12-redux",
+          color: "#181717",
+        },
+      ],
+      description:
+        "A fully state-managed shopping cart built with Redux Toolkit, emphasizing predictable global state and action-driven workflows. Features include add/remove item logic, quantity controls, derived totals, UI slices for toggling cart visibility, and async state handling patterns. The project highlights clean slice architecture, immutable updates, and how Redux Toolkit simplifies state logic compared to vanilla Redux. The result is a lean, efficient cart system with crystal-clear data flow.",
+      images: [ReduxCart1, ReduxCart2],
+      details: { period: "Nov 2025", role: "Frontend" },
+    },
+
+    {
+      title: "React Router Events Manager",
+      tags: ["Frontend"],
+      logo: "react",
+      techStack: [
+        { name: "React Router DOM", color: "#F59E0B" },
+        { name: "Loaders", color: "#0EA5E9" },
+        { name: "Actions", color: "#10B981" },
+        { name: "Nested Routing", color: "#EC4899" },
+        { name: "useNavigation", color: "#6366F1" },
+        { name: "useSubmit", color: "#EF4444" },
+      ],
+      links: [
+        {
+          label: "Repo",
+          href: "https://github.com/JordanGrieve/React-Complete-Course/tree/master/14-react-router",
+          color: "#181717",
+        },
+      ],
+      description:
+        "A full event-management CRUD interface built using the newest React Router DOM data APIs. Includes loaders for data fetching, actions for backend mutations, dynamic route parameters, form handling through useSubmit, and request-driven logic for creating, editing, and deleting events. Nested routes structure the UI elegantly, while useNavigation provides real-time pending states. This project demonstrates professional-grade routing patterns and how React Router replaces many traditional state/HTTP abstractions.",
+      images: [ReactRouterEvents1, ReactRouterEvents2, ReactRouterEvents3, ReactRouterEvents4],
+      details: { period: "Nov 2025", role: "Frontend" },
+    },
+  ],
+},
+
 
   // ---------- October 2025 ----------
     {
